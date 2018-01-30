@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-vars, max-len */
+/* eslint-disable no-unused-vars, max-len, arrow-parens */
 
 const each = (elements, cb) => {
   for (let i = 0; i < elements.length; i++) {

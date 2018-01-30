@@ -1,3 +1,5 @@
+/* eslint-disable prefer-destructuring */
+/* eslint-disable arrow-parens */
 const getBiggest = (x, y) => {
   if (x > y) {
     return x;

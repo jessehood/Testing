@@ -67,7 +67,7 @@ describe('Arrays', () => {
       const reduce = arrayFunctions.reduce;
       expect(reduce).to.be.a('function');
     });
-    it.skip('should iterate over all elements of an array', () => {
+    it('should iterate over all elements of an array', () => {
       const { reduce } = arrayFunctions;
       const callback = (acc, next) => acc + next;
       const spyCb = sinon.spy(callback);

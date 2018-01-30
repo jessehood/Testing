@@ -1,3 +1,4 @@
+/* eslint-disable */
 const multiplyByTen = num => {
   return num * 10;
 };
